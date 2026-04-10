@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"MP3_Ninja_Woods_Menu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":79.9997,
+  "exportDir":"",
+  "name":"MP3_Ninja_Woods_Menu",
+  "parent":{
+    "name":"MP3",
+    "path":"folders/Sounds/MP3.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MP3_Ninja_Woods_Menu.mp3",
+  "volume":1.0,
+}

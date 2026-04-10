@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"OGG_Ninja_Woods_Lose_Sting",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.333333,
+  "exportDir":"",
+  "name":"OGG_Ninja_Woods_Lose_Sting",
+  "parent":{
+    "name":"OGG",
+    "path":"folders/Sounds/OGG.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"OGG_Ninja_Woods_Lose_Sting.ogg",
+  "volume":1.0,
+}
