@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"OGG_Ninja_Woods_Menu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":80.0,
+  "exportDir":"",
+  "name":"OGG_Ninja_Woods_Menu",
+  "parent":{
+    "name":"OGG",
+    "path":"folders/Sounds/OGG.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"OGG_Ninja_Woods_Menu.ogg",
+  "volume":1.0,
+}
