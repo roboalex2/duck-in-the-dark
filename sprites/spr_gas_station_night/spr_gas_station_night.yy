@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_modern_suburb_houses_night",
+  "%Name":"spr_gas_station_night",
   "bboxMode":0,
-  "bbox_bottom":703,
-  "bbox_left":0,
-  "bbox_right":639,
+  "bbox_bottom":138,
+  "bbox_left":366,
+  "bbox_right":623,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"63fbd95b-b41c-403a-9f83-f5084bf4d3ea","name":"63fbd95b-b41c-403a-9f83-f5084bf4d3ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d4aaf6db-468b-464b-a7d2-6b35f0fce405","name":"d4aaf6db-468b-464b-a7d2-6b35f0fce405","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":704,
+  "height":304,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cb915e8f-dccd-4253-9a8f-e7858247ab0a","blendMode":0,"displayName":"default","isLocked":false,"name":"cb915e8f-dccd-4253-9a8f-e7858247ab0a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"30e50018-594f-4526-a63a-b74e9b861093","blendMode":0,"displayName":"default","isLocked":false,"name":"30e50018-594f-4526-a63a-b74e9b861093","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_modern_suburb_houses_night",
+  "name":"spr_gas_station_night",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_modern_suburb_houses_night",
+    "%Name":"spr_gas_station_night",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_modern_suburb_houses_night",
+    "name":"spr_gas_station_night",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"63fbd95b-b41c-403a-9f83-f5084bf4d3ea","path":"sprites/spr_modern_suburb_houses_night/spr_modern_suburb_houses_night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"53b00c46-dd3f-4dfc-a839-f0339772268c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4aaf6db-468b-464b-a7d2-6b35f0fce405","path":"sprites/spr_gas_station_night/spr_gas_station_night.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e6ee62ba-4537-40bf-99f5-ccfc69ecc3d9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":640,
+  "width":624,
 }

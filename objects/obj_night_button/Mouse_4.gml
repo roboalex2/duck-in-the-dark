@@ -12,10 +12,14 @@ for (var i = 0; i < array_length(layers); i++) {
             if (ts == modern_suburb_tileset)       new_ts = modern_suburb_tileset_night;
             else if (ts == modern_suburb_houses)   new_ts = modern_suburb_houses_night;
             else if (ts == trees_tileset)          new_ts = trees_tileset_night;
+            else if (ts == til_suburban_tileset)   new_ts = til_suburban_tileset_night;
+			else if (ts == til_gas_station) new_ts = til_gas_station_night;
         } else {
-            if (ts == modern_suburb_tileset_night) new_ts = modern_suburb_tileset;
+            if (ts == modern_suburb_tileset_night)     new_ts = modern_suburb_tileset;
             else if (ts == modern_suburb_houses_night) new_ts = modern_suburb_houses;
-            else if (ts == trees_tileset_night)    new_ts = trees_tileset;
+            else if (ts == trees_tileset_night)        new_ts = trees_tileset;
+			else if (ts == til_suburban_tileset_night) new_ts = til_suburban_tileset;
+			else if (ts == til_gas_station_night) new_ts = til_gas_station;
         }
 
         tilemap_tileset(tilemap_id, new_ts);

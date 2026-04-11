@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"til_suburban_tileset",
+  "%Name":"til_gas_station_night",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"til_suburban_tileset",
+  "name":"til_gas_station_night",
   "out_columns":27,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_suburban_tileset",
-    "path":"sprites/spr_suburban_tileset/spr_suburban_tileset.yy",
+    "name":"spr_gas_station_night",
+    "path":"sprites/spr_gas_station_night/spr_gas_station_night.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
