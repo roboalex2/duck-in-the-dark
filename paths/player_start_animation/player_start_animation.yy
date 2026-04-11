@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"player_start_animation",
+  "closed":false,
+  "kind":0,
+  "name":"player_start_animation",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "points":[
+    {"speed":10.0,"x":468.0,"y":276.0,},
+    {"speed":10.0,"x":468.0,"y":251.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
