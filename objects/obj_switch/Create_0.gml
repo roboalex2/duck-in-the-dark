@@ -28,7 +28,7 @@ do_interact = function(_player)
             is_night = false;
             update();
         }
-        
+        sprite_index = switches_day;
         
         with (obj_dialogue_manager) {
             portrait_sprite = steve_s;

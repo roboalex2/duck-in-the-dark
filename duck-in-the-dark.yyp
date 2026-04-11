@@ -363,6 +363,7 @@
     {"id":{"name":"suckerberg_s","path":"sprites/suckerberg_s/suckerberg_s.yy",},},
     {"id":{"name":"suckerberg_w","path":"sprites/suckerberg_w/suckerberg_w.yy",},},
     {"id":{"name":"suckerberg","path":"sprites/suckerberg/suckerberg.yy",},},
+    {"id":{"name":"switches_day","path":"sprites/switches_day/switches_day.yy",},},
     {"id":{"name":"switches","path":"sprites/switches/switches.yy",},},
     {"id":{"name":"Verfluchtes_Dorf_bei_Nacht","path":"sprites/Verfluchtes_Dorf_bei_Nacht/Verfluchtes_Dorf_bei_Nacht.yy",},},
     {"id":{"name":"alex_tileset","path":"tilesets/alex_tileset/alex_tileset.yy",},},
