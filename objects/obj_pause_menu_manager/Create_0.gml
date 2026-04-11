@@ -1,3 +1,4 @@
+
 is_paused = false;
 menu_state = "main"; 
 button_array = [];
