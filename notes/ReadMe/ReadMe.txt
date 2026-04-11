@@ -1,8 +1,22 @@
-# GameMaker RPG Tutorial Base Project
+# GameMaker "duck in the dark" Game
+
+Welcome to our game Duck in the Dark.
+As a traveler somewhere far away from home there is no better place for your car to break down.
+Luckily there is a small village with people who can help you... or?
 
 
-Welcome to the GameMaker RPG Tutorial Base Project. This was created with the intention of
-giving you a starting point to follow the GameMaker RPG Tutorial series that you can find [here](https://youtu.be/1J5EydrnIPs).
+Keys to use:
+	+ W A S D for movement
+	+ E for interact
+	+ Enter for accept
+	+ Space for Skip
+
+Goal:
+	+ Escape the evil
+	+ Find the switches
+	+ Don't get caught!
 
 
-**Start the RPG tutorial here:  https://youtu.be/1J5EydrnIPs**
+Have Fun!
+
+Done by: Nikyar Karimi, Alexander Doubrava, Haris Kurtagic, Simon Weisser
