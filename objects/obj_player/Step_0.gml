@@ -9,3 +9,4 @@ if (_len > 0) {
 }
 
 move_and_collide(_hor * move_speed, _ver * move_speed, tilemap);
+

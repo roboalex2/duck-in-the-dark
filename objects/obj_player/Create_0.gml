@@ -1,3 +1,4 @@
+global.fnt_interact = font_add("Fonts/Kenney_Block.ttf", 8, false, false, 32, 128)
 move_speed = 1;
 walk_anim_speed = 1;
 
@@ -14,6 +15,17 @@ image_index = 0;
 image_speed = 0;
 
 gpu_set_texfilter(false);
+
+// Interaction
+interact_range = 32;
+interact_target = noone;
+show_interact_prompt = false;
+interact_prompt_text = "Interact";
+
+
+has_blue_key = false;
+has_gold_key = false;
+has_red_key = false;
 
 function get_player_sprite(_hor, _ver)
 {
