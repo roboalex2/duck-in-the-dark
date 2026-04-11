@@ -62,7 +62,7 @@
   },
   "name":"duck-in-the-dark",
   "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"Font","path":"fonts/Font/Font.yy",},},
     {"id":{"name":"ReadMe","path":"notes/ReadMe/ReadMe.yy",},},
     {"id":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
