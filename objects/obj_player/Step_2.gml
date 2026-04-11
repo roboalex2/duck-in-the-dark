@@ -8,12 +8,19 @@ if (_anim_hor != 0 || _anim_ver != 0)
 {
     sprite_index = get_player_sprite(_anim_hor, _anim_ver);
     image_speed = walk_anim_speed;
+	if (!audio_is_playing(player_running)) 
+    {
+        // Play the sound and set 'loop' to true
+        audio_play_sound(player_running, 10, true);
+    }
+	
 }
 else
 {
     sprite_index = get_player_sprite(_anim_hor, _anim_ver);
     image_speed = 0;
     image_index = 0;
+	audio_stop_sound(player_running);
 }
 
 
