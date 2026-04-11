@@ -15,7 +15,7 @@ friendly = false;
 facing = 0;
 
 // Collision tilemap
-tilemap = layer_tilemap_get_id("Obstacles");
+tilemap = layer_tilemap_get_id("collision");
 
 // Wander movement
 wander_dir_x = 0;
@@ -88,6 +88,8 @@ function enemy_move_chase(_player, _speed)
     }
 
     move_and_collide(_hor * _speed, _ver * _speed, tilemap);
+    x = clamp(x, 1, room_width);
+    y = clamp(y, 1, room_height);
 }
 
 function enemy_choose_wander_direction()
@@ -128,4 +130,6 @@ function enemy_move_wander(_speed)
     wander_time--;
 
     move_and_collide(wander_dir_x * _speed, wander_dir_y * _speed, tilemap);
+    x = clamp(x, 1, room_width);
+    y = clamp(y, 1, room_height);
 }

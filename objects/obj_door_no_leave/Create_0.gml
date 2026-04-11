@@ -2,7 +2,7 @@
 event_inherited();
 interaction_text = "[E / Enter] Open Door";
 
-blocked = true;
+blocked = false;
 
 // Default interaction function
 do_interact = function(_player)
