@@ -78,7 +78,6 @@
     {"id":{"name":"obj_pause_menu_manager","path":"objects/obj_pause_menu_manager/obj_pause_menu_manager.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"player_start","path":"objects/player_start/player_start.yy",},},
-    {"id":{"name":"patrol1","path":"paths/patrol1/patrol1.yy",},},
     {"id":{"name":"player_start_animation","path":"paths/player_start_animation/player_start_animation.yy",},},
     {"id":{"name":"VehiclePath","path":"paths/VehiclePath/VehiclePath.yy",},},
     {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},},
