@@ -28,11 +28,11 @@ do_interact = function(_player)
             is_night = false;
             update();
         }
-        
+        sprite_index = switches_day;
         
         with (obj_dialogue_manager) {
             portrait_sprite = steve_s;
-            add_action("text", "I have WON!!!");
+            add_action("text", "I have WON!!! There shall be day!");
             add_action("code", function() {
                room_goto(Room_End_Screen_Normal)
              });
