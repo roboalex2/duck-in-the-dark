@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"intro_car",
+  "%Name":"player_start",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":8,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"intro_car",
+  "name":"player_start",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"blue_wagon",
-    "path":"sprites/blue_wagon/blue_wagon.yy",
+    "name":"steve_w",
+    "path":"sprites/steve_w/steve_w.yy",
   },
   "spriteMaskId":null,
   "visible":true,
