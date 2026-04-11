@@ -32,10 +32,6 @@ has_red_key = false;
 
 function get_player_sprite(_hor, _ver)
 {
-    if (is_dead) {
-        return spr_player_dead;
-    }
-    
     // Determine direction
     var _dir = "s";
 
@@ -45,6 +41,10 @@ function get_player_sprite(_hor, _ver)
     if (instance_exists(obj_night_button)) {
         var _night_button = instance_find(obj_night_button, 0);
         _is_night = _night_button.is_night;
+    }
+    
+    if (is_dead) {
+        return _is_night ? spr_player_dead_night : spr_player_dead;
     }
     
     if (_ver < 0) _dir = "w";
