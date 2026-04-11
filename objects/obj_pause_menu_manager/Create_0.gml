@@ -33,6 +33,7 @@ spawn_main_buttons = function() {
     button_array[1].button_action = function() { 
         instance_activate_all();
         is_paused = false;
+		obj_main_menu_sound_controler.resume_music()
         room_goto(Room_Main_Menu); 
     };
 

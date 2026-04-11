@@ -17,12 +17,18 @@ button_array = [];
 // Button 1: Start
 button_array[0] = instance_create_layer(_start_x, _start_y, "Instances_1", obj_btn_parent);
 button_array[0].button_text = "START";
-button_array[0].button_action = function() { room_goto(Room2); };
+button_array[0].button_action = function() { 
+	obj_main_menu_sound_controler.pause_music()
+	room_goto(Room2); 
+};
 
 // Button 2: Quit
 button_array[1] = instance_create_layer(_start_x, _start_y + _spacing, "Instances_1", obj_btn_parent);
 button_array[1].button_text = "BEENDEN";
-button_array[1].button_action = function() { game_end(); };
+button_array[1].button_action = function() { 
+	obj_main_menu_sound_controler.stop_music()	
+	game_end(); 
+};
 
 // Track which button is highlighted by the keyboard
 current_index = 0;

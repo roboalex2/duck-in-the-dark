@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"dialog","folderPath":"folders/Objects/dialog.yy","name":"dialog","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/Objects/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -79,6 +80,7 @@
     {"id":{"name":"obj_haris","path":"objects/obj_haris/obj_haris.yy",},},
     {"id":{"name":"obj_key_blue","path":"objects/obj_key_blue/obj_key_blue.yy",},},
     {"id":{"name":"obj_main_menu_manager","path":"objects/obj_main_menu_manager/obj_main_menu_manager.yy",},},
+    {"id":{"name":"obj_main_menu_sound_controler","path":"objects/obj_main_menu_sound_controler/obj_main_menu_sound_controler.yy",},},
     {"id":{"name":"obj_night_button","path":"objects/obj_night_button/obj_night_button.yy",},},
     {"id":{"name":"obj_pause_menu_manager","path":"objects/obj_pause_menu_manager/obj_pause_menu_manager.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -97,6 +99,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"start_sequence","path":"sequences/start_sequence/start_sequence.yy",},},
+    {"id":{"name":"sou_start_menu","path":"sounds/sou_start_menu/sou_start_menu.yy",},},
     {"id":{"name":"alex_a","path":"sprites/alex_a/alex_a.yy",},},
     {"id":{"name":"alex_d","path":"sprites/alex_d/alex_d.yy",},},
     {"id":{"name":"alex_s","path":"sprites/alex_s/alex_s.yy",},},

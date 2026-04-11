@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sou_start_menu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":119.53632,
+  "exportDir":"",
+  "name":"sou_start_menu",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sou_start_menu.mp3",
+  "volume":1.0,
+}
