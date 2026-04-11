@@ -23,13 +23,13 @@ spawn_main_buttons = function() {
     
     // Create buttons on the "Instances_1" layer or a dedicated UI layer
     button_array[0] = instance_create_layer(_start_x, _start_y, "Instances_1", obj_btn_parent);
-    button_array[0].button_text = "ENTWICKLER";
+    button_array[0].button_text = "DEVELOPERS";
     button_array[0].button_action = function() { 
         with(obj_pause_menu_manager) { spawn_credits_buttons(); }
     };
     
     button_array[1] = instance_create_layer(_start_x, _start_y + _spacing, "Instances_1", obj_btn_parent);
-    button_array[1].button_text = "HAUPTMENUE";
+    button_array[1].button_text = "MAIN MANU";
     button_array[1].button_action = function() { 
         instance_activate_all();
         is_paused = false;
@@ -37,7 +37,7 @@ spawn_main_buttons = function() {
     };
 
     button_array[2] = instance_create_layer(_start_x, _start_y + (_spacing * 2), "Instances_1", obj_btn_parent);
-    button_array[2].button_text = "BEENDEN";
+    button_array[2].button_text = "QUIT";
     button_array[2].button_action = function() { game_end(); };
     
     // Einheitliche Größe erzwingen
@@ -75,7 +75,7 @@ spawn_credits_buttons = function() {
     
     // Nur ein einziger Button: Zurück
     button_array[0] = instance_create_layer(_start_x, _start_y, "Instances_1", obj_btn_parent);
-    button_array[0].button_text = "ZURUECK";
+    button_array[0].button_text = "BACK";
     button_array[0].button_action = function() {
         // Alte Buttons löschen und zurück ins Hauptmenü
         for (var i = 0; i < array_length(button_array); i++) instance_destroy(button_array[i]);
@@ -86,6 +86,6 @@ spawn_credits_buttons = function() {
     draw_set_font(global.fnt_menu);
     var _base_w = sprite_get_width(button_array[0].sprite_index);
     var _base_h = sprite_get_height(button_array[0].sprite_index);
-    button_array[0].image_xscale = (string_width("ZURUECK") + 40) / _base_w;
-    button_array[0].image_yscale = (string_height("ZURUECK") + 20) / _base_h;
+    button_array[0].image_xscale = (string_width("BACK") + 40) / _base_w;
+    button_array[0].image_yscale = (string_height("BACK") + 20) / _base_h;
 }

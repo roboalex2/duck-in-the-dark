@@ -4,7 +4,7 @@ if (current_action.type == "text") {
     var _text = current_action.data;
     
     // E-Taste für Beschleunigung (Speed Up)
-    var _is_speeding = keyboard_check(ord("E"));
+    var _is_speeding = keyboard_check(ord("E") || keyboard_check(vk_space));
     var _speed = _is_speeding ? 4 : 0.5; // Geschwindigkeit bei E erhöht
 
     if (char_index < string_length(_text)) {

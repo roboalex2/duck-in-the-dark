@@ -9,7 +9,7 @@ var _my_sprite = sprite_index; // Das aktuelle Sprite des NPCs speichern
 with (obj_dialogue_manager) {
     portrait_sprite = _my_sprite; // Automatische Referenz setzen
 
-    add_action("text", "Hallo! Ich bin's. Schau in die Box links!");
+    add_action("text", "Hallo! Ich bin's. Schau in die Box links!Hallo! Ich bin's. Schau in die Box links!Hallo! Ich bin's. Schau in die Box links!Hallo! Ich bin's. Schau in die Box links!Hallo! Ich bin's. Schau in die Box links!Hallo! Ich bin's. Schau in die Box links!Hallo! Ich bin's. Schau in die Box links!Hallo! Ich bin's. Schau in die Box links!Hallo! Ich bin's. Schau in die Box links!");
     
     add_action("code", function() {
         with(obj_haris) { 

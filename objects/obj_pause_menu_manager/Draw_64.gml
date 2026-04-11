@@ -21,7 +21,7 @@ if (is_paused) {
         var _start_y = (_gui_h / 2) - 80; 
         var _spacing = 40; 
         
-        draw_text(_center_x, _start_y - 60, "--- ENTWICKLER ---");
+        draw_text(_center_x, _start_y - 60, "--- DEVELOPER ---");
         
         for (var i = 0; i < array_length(developers); i++) {
             draw_text(_center_x, _start_y + (i * _spacing), developers[i]);

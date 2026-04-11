@@ -44,7 +44,7 @@ if (!show_continue_icon) {
     var _ent_col = 32;
     var _ent_row = _ent_pressing ? 10 : 2;
     draw_sprite_part_ext(spr_prompt_input, 0, _ent_col * _tile_size, _ent_row * _tile_size, _tile_size * 2, _tile_size *2, _icon_x, _icon_y, 1, 1, c_white, 1);
-    draw_text(_icon_x - 5, _icon_y + 8, "Ueberspringen");
+    draw_text(_icon_x - 5, _icon_y + 8, "Skip");
 
     // E-Icon (Schneller) leicht darüber versetzt
     var _e_pressing = keyboard_check(ord("E"));
@@ -52,7 +52,7 @@ if (!show_continue_icon) {
     var _e_row = _e_pressing ? 10 : 2;
     var _e_y = _icon_y - 30;
     draw_sprite_part_ext(spr_prompt_input, 0, _e_col * _tile_size, _e_row * _tile_size, _tile_size, _tile_size, _icon_x + 8, _e_y, 2, 2, c_white, 1);
-    draw_text(_icon_x - 5, _e_y + 8, "Schneller");
+    draw_text(_icon_x - 5, _e_y + 8, "Speed Up");
 
 } else {
     // Wenn der Text fertig ist:
@@ -62,5 +62,5 @@ if (!show_continue_icon) {
     var _ent_col = 32;
     var _ent_row = _ent_pressing ? 10 : 2;
     draw_sprite_part_ext(spr_prompt_input, 0, _ent_col * _tile_size, _ent_row * _tile_size, _tile_size * 2, _tile_size *2, _icon_x, _icon_y, 1, 1, c_white, 1);
-    draw_text(_icon_x - 10, _icon_y + 8, "Weiter");
+    draw_text(_icon_x - 10, _icon_y + 8, "Continue");
 }
