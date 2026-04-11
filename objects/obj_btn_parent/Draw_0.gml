@@ -1,0 +1,1 @@
+// Leer lassen, damit das Sprite nicht in der normalen Spielwelt gezeichnet wird!
