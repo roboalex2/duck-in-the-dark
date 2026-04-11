@@ -8,7 +8,14 @@
   "instanceCreationOrder":[],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"Invisible_walls_Room3","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Invisible_walls_Room3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Invisible_walls_Room3","depth":0,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Invisible_walls_Room3","properties":[
+        {"name":"g_Intensity","type":0,"value":"1",},
+        {"name":"g_TintCol","type":1,"value":"#FFFF2BFF",},
+      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":24,"TileCompressedData":[
+          -48,-2147483648,1,301,-23,-2147483648,-24,301,-21,-2147483648,1,301,-23,-2147483648,1,301,-15,-2147483648,
+          -4,301,-4,-2147483648,-3,301,-13,-2147483648,-4,301,-7,-2147483648,-9,301,-11,-2147483648,-2,301,-2,
+          -2147483648,-9,301,-4,-2147483648,-4,301,-3,-2147483648,-2,301,-50,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"modern_suburb_tileset","path":"tilesets/modern_suburb_tileset/modern_suburb_tileset.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"furniture","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"furniture","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":24,"TileCompressedData":[
           2,462,463,-17,0,-5,-2147483648,19,191,192,193,187,188,189,109,110,111,0,330,331,328,329,187,188,189,
           0,0,-5,-2147483648,19,217,218,219,213,214,215,135,136,137,0,356,357,354,355,213,214,215,0,0,-5,-2147483648,
