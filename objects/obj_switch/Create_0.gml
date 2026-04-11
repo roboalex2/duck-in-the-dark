@@ -40,6 +40,3 @@ do_interact = function(_player)
         }
     }
 };
-
-
-
