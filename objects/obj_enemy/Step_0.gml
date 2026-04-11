@@ -8,10 +8,15 @@ if (_has_player) {
     _player_dist = point_distance(x, y, _player.x, _player.y);
 }
 
+if (_player_dist <= 5 && is_chasing && !friendly) {
+    is_chasing = false;
+    friendly = true;
+    captured();
+}
+
 // State switching
-if (!is_chasing && _has_player && _player_dist <= detect_range) {
+if (!is_chasing && _has_player && _player_dist <= detect_range && !friendly) {
     is_chasing = true;
-    path_end();
 }
 else if (is_chasing && (!_has_player || _player_dist > lose_range)) {
     is_chasing = false;

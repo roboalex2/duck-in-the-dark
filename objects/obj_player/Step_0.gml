@@ -8,5 +8,10 @@ if (_len > 0) {
     _ver /= _len;
 }
 
+if (global.game_paused) {
+    _hor = 0;
+    _ver = 0;
+}
+
 move_and_collide(_hor * move_speed, _ver * move_speed, tilemap);
 

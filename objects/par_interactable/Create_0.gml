@@ -1,6 +1,6 @@
 interactable = true;
 interaction_range = 32;
-interaction_text = "Interact";
+interaction_text = "[E / Enter] Interact";
 
 // Default interaction function
 do_interact = function(_player)
