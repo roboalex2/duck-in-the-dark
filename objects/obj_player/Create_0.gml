@@ -3,7 +3,7 @@ move_speed = 1;
 walk_anim_speed = 1;
 
 // Collision tilemap
-tilemap = layer_tilemap_get_id("Obstacles");
+tilemap = layer_tilemap_get_id("collision");
 
 // Night mode state
 is_night = false;
