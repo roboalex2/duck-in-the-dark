@@ -2,7 +2,7 @@ draw_self();
 
 if (show_interact_prompt)
 {
-    var _txt = "[E / Enter] " + interact_prompt_text;
+    var _txt = interact_prompt_text;
 
     draw_set_font(global.fnt_interact);
     draw_set_halign(fa_center);

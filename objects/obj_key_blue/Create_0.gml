@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-interaction_text = "Collect Key";
+interaction_text = "[E / Enter] Collect Key";
 
 
 // Default interaction function
