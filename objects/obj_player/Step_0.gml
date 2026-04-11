@@ -14,4 +14,5 @@ if (global.game_paused) {
 }
 
 move_and_collide(_hor * move_speed, _ver * move_speed, tilemap);
-
+x = clamp(x, 1, room_width);
+y = clamp(y, 1, room_height);
