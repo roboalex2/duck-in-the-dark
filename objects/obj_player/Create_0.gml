@@ -15,11 +15,19 @@ image_speed = 0;
 
 gpu_set_texfilter(false);
 
-function get_player_sprite(_hor, _ver, _is_night)
+function get_player_sprite(_hor, _ver)
 {
     // Determine direction
-    var _dir = "";
+    var _dir = "s";
 
+        
+    var _is_night = false;
+    
+    if (instance_exists(obj_night_button)) {
+        var _night_button = instance_find(obj_night_button, 0);
+        _is_night = _night_button.is_night;
+    }
+    
     if (_ver < 0) _dir = "w";
     else if (_hor > 0) _dir = "d";
     else if (_hor < 0) _dir = "a"; 
