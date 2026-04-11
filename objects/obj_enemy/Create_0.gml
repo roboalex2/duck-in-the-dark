@@ -25,7 +25,7 @@ wander_time = 0;
 global.game_paused = false;
 
 captured = function () {
-    
+     room_goto(Room_End_Screen_Cursed);
 }
 
 // Start sprite

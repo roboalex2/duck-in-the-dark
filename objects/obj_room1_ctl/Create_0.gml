@@ -13,6 +13,7 @@ with (obj_player) {
 }
 
 function startDialog() {
+    global.game_paused = true;
     if (instance_exists(obj_dialogue_manager)) {
         if (obj_dialogue_manager.is_active) exit; 
     } else {
@@ -42,6 +43,17 @@ function startDialog() {
             global.game_paused = false;
             with (obj_player) {
                 is_dead = false;
+            }
+            with (obj_talker1) {
+                instance_destroy(); 
+            }
+            with (obj_talker2) {
+                instance_destroy(); 
+            }
+            with (obj_enemy) {
+                captured = function () {
+                    room_goto(Room_End_Screen_Cursed);
+                }
             }
         });
         next_action();
