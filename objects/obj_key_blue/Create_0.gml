@@ -9,6 +9,9 @@ do_interact = function(_player)
     if(!_player.has_blue_key) {
         _player.has_blue_key = true;
         show_debug_message("Interacted with: " + string(object_get_name(object_index)));
+        with (obj_door_blue) {
+            interaction_text = "[E / Enter] Open Door";
+        }
     }
     instance_destroy();
 };
