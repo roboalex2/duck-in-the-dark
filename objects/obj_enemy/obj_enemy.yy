@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"nikyar_s",
-    "path":"sprites/nikyar_s/nikyar_s.yy",
+    "name":"enemy_s_night",
+    "path":"sprites/enemy_s_night/enemy_s_night.yy",
   },
   "spriteMaskId":null,
   "visible":true,

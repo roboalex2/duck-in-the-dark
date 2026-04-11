@@ -66,10 +66,10 @@ else if (abs(_hor) > 0) {
 
 // Sprite selection
 switch (facing) {
-    case 0: sprite_index = _is_night ? nikyar_s_night : nikyar_s; break;
-    case 1: sprite_index = _is_night ? nikyar_w_night : nikyar_w; break;
-    case 2: sprite_index = _is_night ? nikyar_d_night : nikyar_d; break;
-    case 3: sprite_index = _is_night ? nikyar_a_night : nikyar_a; break;
+    case 0: sprite_index = _is_night ? enemy_s_night : nikyar_s; break;
+    case 1: sprite_index = _is_night ? enemy_w_night : nikyar_w; break;
+    case 2: sprite_index = _is_night ? enemy_d_night : nikyar_d; break;
+    case 3: sprite_index = _is_night ? enemy_a_night : nikyar_a; break;
 }
 
 
