@@ -9,6 +9,7 @@ lose_range = 140;
 
 // State
 is_chasing = false;
+friendly = false;
 
 // Facing: 0 = down, 1 = up, 2 = right, 3 = left
 facing = 0;
@@ -21,6 +22,11 @@ wander_dir_x = 0;
 wander_dir_y = 1;
 wander_time = 0;
 
+global.game_paused = false;
+
+captured = function () {
+    
+}
 
 // Start sprite
 sprite_index = nikyar_s;
@@ -75,6 +81,11 @@ function enemy_move_chase(_player, _speed)
         _hor /= _len;
         _ver /= _len;
     }
+    
+    if (global.game_paused) {
+        _hor = 0;
+        _ver = 0;
+    }
 
     move_and_collide(_hor * _speed, _ver * _speed, tilemap);
 }
@@ -106,6 +117,10 @@ function enemy_choose_wander_direction()
 
 function enemy_move_wander(_speed)
 {
+    if (global.game_paused) {
+       return;
+    }
+    
     if (wander_time <= 0) {
         enemy_choose_wander_direction();
     }
