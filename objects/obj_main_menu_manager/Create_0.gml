@@ -30,6 +30,21 @@ button_array[1].button_action = function() {
 	game_end(); 
 };
 
+button_array[2] = instance_create_layer(_start_x, _start_y + (_spacing * 2), "Instances_1", obj_btn_parent);
+button_array[2].button_text = "MUSIC: ON"; // Initial text
+button_array[2].is_music_toggle = true;    // Custom flag for the draw event
+button_array[2].button_action = function() { 
+    var _controller = obj_main_menu_sound_controler;
+    
+    if (audio_is_paused(sou_start_menu)) {
+        _controller.resume_music();
+        button_array[2].button_text = "MUSIC: ON";
+    } else {
+        _controller.pause_music();
+        button_array[2].button_text = "MUSIC: OFF";
+    }
+};
+
 // Track which button is highlighted by the keyboard
 current_index = 0;
 is_using_mouse = false; // Speichert, ob wir gerade im "Maus-Modus" sind
