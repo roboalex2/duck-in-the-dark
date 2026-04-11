@@ -6,13 +6,12 @@ var _gui_mouse_y = device_mouse_y_to_gui(0);
 // ==========================================
 if (keyboard_check_pressed(vk_escape)) {
     is_paused = !is_paused;
+	global.game_paused = is_paused;
     
     if (is_paused) {
         // ZUERST deactivieren, DANN buttons erschaffen
-        instance_deactivate_all(true);
         spawn_main_buttons(); 
     } else {
-        instance_activate_all();
         for (var i = 0; i < array_length(button_array); i++) {
             if (instance_exists(button_array[i])) instance_destroy(button_array[i]);
         }

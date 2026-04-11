@@ -1,4 +1,5 @@
 global.fnt_menu = font_add("Fonts/Kenney_Block.ttf", 24, false, false, 32, 128)
+global.game_paused = false;
 
 draw_set_font(global.fnt_menu)
 
