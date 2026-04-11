@@ -23,13 +23,10 @@
     {"$GMFolder":"","%Name":"joker","folderPath":"folders/Sprites/Characters/joker.yy","name":"joker","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"nikyar","folderPath":"folders/Sprites/Characters/nikyar.yy","name":"nikyar","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"simon","folderPath":"folders/Sprites/Characters/simon.yy","name":"simon","resourceType":"GMFolder","resourceVersion":"2.0",},
-<<<<<<< Updated upstream
     {"$GMFolder":"","%Name":"sofiane","folderPath":"folders/Sprites/Characters/sofiane.yy","name":"sofiane","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"steve","folderPath":"folders/Sprites/Characters/steve.yy","name":"steve","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"suckerberg","folderPath":"folders/Sprites/Characters/suckerberg.yy","name":"suckerberg","resourceType":"GMFolder","resourceVersion":"2.0",},
-=======
     {"$GMFolder":"","%Name":"Interior","folderPath":"folders/Sprites/Interior.yy","name":"Interior","resourceType":"GMFolder","resourceVersion":"2.0",},
->>>>>>> Stashed changes
     {"$GMFolder":"","%Name":"Modern Urban","folderPath":"folders/Sprites/Modern Urban.yy","name":"Modern Urban","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Turn Based Battle","folderPath":"folders/Sprites/Turn Based Battle.yy","name":"Turn Based Battle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -47,11 +44,7 @@
     {"id":{"name":"obj_night_button","path":"objects/obj_night_button/obj_night_button.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"night_helper","path":"scripts/night_helper/night_helper.yy",},},
-=======
-    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"alex_a","path":"sprites/alex_a/alex_a.yy",},},
     {"id":{"name":"alex_d","path":"sprites/alex_d/alex_d.yy",},},
     {"id":{"name":"alex_s","path":"sprites/alex_s/alex_s.yy",},},
@@ -76,7 +69,6 @@
     {"id":{"name":"haris_s","path":"sprites/haris_s/haris_s.yy",},},
     {"id":{"name":"haris_w","path":"sprites/haris_w/haris_w.yy",},},
     {"id":{"name":"haris","path":"sprites/haris/haris.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"harry_a","path":"sprites/harry_a/harry_a.yy",},},
     {"id":{"name":"harry_d","path":"sprites/harry_d/harry_d.yy",},},
     {"id":{"name":"harry_s","path":"sprites/harry_s/harry_s.yy",},},
@@ -92,10 +84,6 @@
     {"id":{"name":"joker_s","path":"sprites/joker_s/joker_s.yy",},},
     {"id":{"name":"joker_w","path":"sprites/joker_w/joker_w.yy",},},
     {"id":{"name":"joker","path":"sprites/joker/joker.yy",},},
-=======
-    {"id":{"name":"kitchen_LRK","path":"sprites/kitchen_LRK/kitchen_LRK.yy",},},
-    {"id":{"name":"MV_icons_complete_sheet","path":"sprites/MV_icons_complete_sheet/MV_icons_complete_sheet.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"nikyar_a","path":"sprites/nikyar_a/nikyar_a.yy",},},
     {"id":{"name":"nikyar_d","path":"sprites/nikyar_d/nikyar_d.yy",},},
     {"id":{"name":"nikyar_s","path":"sprites/nikyar_s/nikyar_s.yy",},},
@@ -119,22 +107,16 @@
     {"id":{"name":"spr_button_light","path":"sprites/spr_button_light/spr_button_light.yy",},},
     {"id":{"name":"spr_button_run","path":"sprites/spr_button_run/spr_button_run.yy",},},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"spr_gas_station_night","path":"sprites/spr_gas_station_night/spr_gas_station_night.yy",},},
     {"id":{"name":"spr_gas_station","path":"sprites/spr_gas_station/spr_gas_station.yy",},},
     {"id":{"name":"spr_modern_suburb_houses_night","path":"sprites/spr_modern_suburb_houses_night/spr_modern_suburb_houses_night.yy",},},
     {"id":{"name":"spr_modern_suburb_houses","path":"sprites/spr_modern_suburb_houses/spr_modern_suburb_houses.yy",},},
     {"id":{"name":"spr_modern_suburb_night","path":"sprites/spr_modern_suburb_night/spr_modern_suburb_night.yy",},},
-=======
-    {"id":{"name":"spr_gas_station","path":"sprites/spr_gas_station/spr_gas_station.yy",},},
-    {"id":{"name":"spr_modern_suburb_houses","path":"sprites/spr_modern_suburb_houses/spr_modern_suburb_houses.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"spr_modern_suburb","path":"sprites/spr_modern_suburb/spr_modern_suburb.yy",},},
     {"id":{"name":"spr_slash","path":"sprites/spr_slash/spr_slash.yy",},},
     {"id":{"name":"spr_suburban_tileset_night","path":"sprites/spr_suburban_tileset_night/spr_suburban_tileset_night.yy",},},
     {"id":{"name":"spr_suburban_tileset","path":"sprites/spr_suburban_tileset/spr_suburban_tileset.yy",},},
     {"id":{"name":"spr_talk","path":"sprites/spr_talk/spr_talk.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"spr_trees_night","path":"sprites/spr_trees_night/spr_trees_night.yy",},},
     {"id":{"name":"spr_trees","path":"sprites/spr_trees/spr_trees.yy",},},
     {"id":{"name":"steve_a","path":"sprites/steve_a/steve_a.yy",},},
@@ -165,7 +147,6 @@
     {"id":{"name":"til_suburban_tileset_night","path":"tilesets/til_suburban_tileset_night/til_suburban_tileset_night.yy",},},
     {"id":{"name":"til_suburban_tileset","path":"tilesets/til_suburban_tileset/til_suburban_tileset.yy",},},
     {"id":{"name":"trees_tileset_night","path":"tilesets/trees_tileset_night/trees_tileset_night.yy",},},
-=======
     {"id":{"name":"spr_trees","path":"sprites/spr_trees/spr_trees.yy",},},
     {"id":{"name":"alex_tileset","path":"tilesets/alex_tileset/alex_tileset.yy",},},
     {"id":{"name":"anna_tileset","path":"tilesets/anna_tileset/anna_tileset.yy",},},
@@ -187,7 +168,6 @@
     {"id":{"name":"til_suburban_buildings_big","path":"tilesets/til_suburban_buildings_big/til_suburban_buildings_big.yy",},},
     {"id":{"name":"til_suburban_buildings_small","path":"tilesets/til_suburban_buildings_small/til_suburban_buildings_small.yy",},},
     {"id":{"name":"til_suburban_tileset","path":"tilesets/til_suburban_tileset/til_suburban_tileset.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"trees_tileset","path":"tilesets/trees_tileset/trees_tileset.yy",},},
     {"id":{"name":"sofiane_tileset","path":"tilesets/sofiane_tileset/sofiane_tileset.yy",},},
     {"id":{"name":"steve_tileset","path":"tilesets/steve_tileset/steve_tileset.yy",},},
@@ -198,10 +178,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-<<<<<<< Updated upstream
-=======
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
->>>>>>> Stashed changes
   ],
   "templateType":"game",
   "TextureGroups":[
