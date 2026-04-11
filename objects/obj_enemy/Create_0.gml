@@ -15,7 +15,7 @@ friendly = false;
 facing = 0;
 
 // Collision tilemap
-tilemap = layer_tilemap_get_id("Obstacles");
+tilemap = layer_tilemap_get_id("collision");
 
 // Wander movement
 wander_dir_x = 0;
