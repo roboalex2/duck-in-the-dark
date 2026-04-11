@@ -42,6 +42,7 @@ do_interact = function(_player)
         add_action("code", function() { 
             with (obj_tank) {
                 instance_create_layer(x, y, "Instances", obj_enemy); 
+                instance_create_layer(x, y, "Instances", obj_key_blue); 
                 instance_destroy(); 
             }
             with (obj_door_no_leave) {
@@ -49,6 +50,7 @@ do_interact = function(_player)
                 interaction_text = "The door is locked!";
             }
             with (obj_enemy) {
+                tilemap = layer_tilemap_get_id("none");
                 captured = function () {
                     global.game_paused = true;
                     with (obj_player) {
