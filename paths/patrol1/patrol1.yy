@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"patrol1",
+  "closed":false,
+  "kind":1,
+  "name":"patrol1",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":141.77777,"y":661.7778,},
+    {"speed":100.0,"x":121.77777,"y":-76.000015,},
+    {"speed":100.0,"x":279.55554,"y":-76.000015,},
+    {"speed":100.0,"x":324.0,"y":644.0,},
+    {"speed":100.0,"x":195.11111,"y":675.11115,},
+    {"speed":100.0,"x":159.55557,"y":679.55554,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
